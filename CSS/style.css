@@ -1,0 +1,93 @@
+.carro{
+    display: block; 
+    margin-top: 20px;
+    top: 330px;      
+    left: 150px;
+    position: absolute;
+    z-index: index;
+    font-family: "Garamond", serif;
+
+}.container{
+    background-image: url("istockphoto-1396211354-1024x1024.jpg");
+    background-color: transparent;
+    color: rgb(128, 101, 61);
+    justify-content: left;
+    align-items: center;
+    width: 200%;
+    height: 200%;
+   
+}
+
+.card{
+    display:inline-table;
+    width: 10px;
+    height: 230px;
+    border-radius: 0,2rem;
+    border: #dd1616;
+    background-color: #6c5c5c;
+    color: rgb(195, 187, 187);
+    font: small-caption;
+    margin: 2rem;
+    position: relative;
+    right: 130px;
+}
+
+.imagen{
+    display: block;
+    width: 120px;
+    height: 160px;
+}
+
+.btn{
+    width: 120px;
+    height: 20px;
+    background-color: rgb(8, 8, 8);
+    color: rgb(128, 101, 61);
+    cursor: pointer; 
+    display: block;
+    margin-right: 0%;
+    margin-left: auto;
+    justify-items: auto;
+    font: small-caption;
+} 
+
+.btn:hover {
+    background-color: rgb(58, 24, 13);
+    color: white;
+  }
+
+.btn2{
+    width: 120px;
+    height: 20px;
+    background-color: rgb(8, 8, 8);
+    color: rgb(128, 101, 61);
+    cursor: pointer; 
+    bottom: 50%;
+    position: relative;
+    top: 300px;      
+    left: 430px;
+    font: small-caption;
+}
+
+.btn2:hover {
+    background-color: rgb(58, 24, 13);
+    color: white;
+  }
+
+.btn3{
+    width: 120px;
+    height: 20px;
+    background-color: rgb(8, 8, 8);
+    color: rgb(128, 101, 61);
+    cursor: pointer; 
+    bottom: 50%;
+    position: relative;
+    top: 350px;      
+    left: 550px;
+    font: small-caption;
+}
+
+.btn3:hover {
+    background-color: rgb(233, 16, 16);
+    color: white;
+  }
